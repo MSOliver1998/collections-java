@@ -12,15 +12,15 @@ public class CarrinhoDeCompras {
 
         cart.adicionarItem("copo", 12.50, 2);
         cart.adicionarItem("prato", 16.3, 2);
-        cart.adicionarItem("talher", 20.00, 5);
-        cart.adicionarItem("pano de prato", 2.50, 2);
-
+        cart.adicionarItem("talher", 20d, 5);
+        cart.adicionarItem("pano de prato", 2.5, 2);
         cart.exibirItens();
+        
         cart.calcularValorTotal();
 
         cart.removerItem("talher");
-
         cart.exibirItens();
+        cart.calcularValorTotal();
 
     }
 
@@ -45,7 +45,7 @@ public class CarrinhoDeCompras {
         for (Item item : carrinho) {
             total+=item.getPrice() * item.getQuantidade();
         }
-        System.out.println(total);
+        System.out.println("R$:" + String.format("%.2f",total));
     }
 
     public void exibirItens(){

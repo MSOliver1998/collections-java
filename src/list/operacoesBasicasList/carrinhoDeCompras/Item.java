@@ -26,6 +26,6 @@ public class Item {
 
     @Override
     public String toString() {
-        return nome +" " +preco+ " "+quantidade;
+        return this.quantidade + " " +  this.nome +" R$:" +String.format("%.2f",this.preco) + " total R$: " + String.format("%.2f", this.quantidade*this.preco);
     }
 }
