@@ -1,9 +1,7 @@
 package set.operacoesBasicas.conjuntoConvidados;
 
-import java.util.Random;
 import java.util.Set;
 import java.util.HashSet;
-import set.operacoesBasicas.conjuntoConvidados.Convidados;
 
 public class ConjuntoConvidados {
 
