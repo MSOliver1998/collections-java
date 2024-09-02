@@ -16,7 +16,7 @@ public class ConjuntoConvidados {
         convidados.add(convidado);
     }
 
-    void removerConvidados(int codigoConvidado){
+    public void removerConvidados(int codigoConvidado){
         Convidados convidadosParaRemover=null;
 
         for(Convidados convidado : convidados){
@@ -29,7 +29,7 @@ public class ConjuntoConvidados {
         convidados.remove(convidadosParaRemover);
     }
 
-    void contarConvidados(){
+    public void contarConvidados(){
         System.out.println(convidados.size());
     }
 
