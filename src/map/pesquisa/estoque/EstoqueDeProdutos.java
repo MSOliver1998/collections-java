@@ -1,9 +1,6 @@
 package map.pesquisa.estoque;
 
 import java.util.Map;
-
-import map.operacoesBasicas.dicionario.Dicionario;
-
 import java.util.HashMap;
 
 public class EstoqueDeProdutos {
